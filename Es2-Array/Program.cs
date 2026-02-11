@@ -24,7 +24,7 @@ namespace Es2
                     {
                         if (v[i] == 2 * v[j])
                         {
-                            Write(v[i] + " " + v[j]);
+                            WriteLine( v[i] + " " + v[j]);
                         }
                     }
                 }
