@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Es1-Array/Es1-Array.csproj" />
+  <Project Path="Es2-Array/Es2-Array.csproj" />
 </Solution>
