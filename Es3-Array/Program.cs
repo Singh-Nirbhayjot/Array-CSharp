@@ -7,6 +7,7 @@ namespace Es3
     {
         static void Main(string[] args)
         {
+
             int[] v = new int[100];
             int s = 0;
 
@@ -21,11 +22,12 @@ namespace Es3
             }
 
             bool r = false;
+
             for (int i = 0; i < v.Length; i++)
             {
                 for (int j = i + 1; j < v.Length; j++)
                 {
-                    if ((v[j] != 0 && v[i] / v[j] == v[0]) || ((v[i] != 0 && v[j] / v[i] == v[0])))
+                    if ((v[j] != 0 && v[i] / v[j] == v[0]) || (v[i] != 0 && v[j] / v[i] == v[0]))
                     {
                         WriteLine("Il rapporto tra " + v[i] + " e " + v[j] + " è uguale a " + v[0]);
                         r = true;
