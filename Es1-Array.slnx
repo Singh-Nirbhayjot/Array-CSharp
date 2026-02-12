@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Es1-Array/Es1-Array.csproj" />
   <Project Path="Es2-Array/Es2-Array.csproj" />
+  <Project Path="Es3-Array/Es3-Array.csproj" Id="ac6e67c8-8e5b-40be-91ec-66433d2246e7" />
 </Solution>
